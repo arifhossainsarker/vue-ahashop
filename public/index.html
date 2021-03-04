@@ -4,14 +4,32 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="shortcut icon" href="dist/img/favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700%7CRaleway:300,400,700%7CPlayfair+Display:700' rel='stylesheet'>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="dist/css/magnific-popup.css" />
+    <link rel="stylesheet" href="dist/css/font-icons.css" />
+    <link rel="stylesheet" href="dist/css/sliders.css" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/animate.min.css" />
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+      <main class="content-wrapper oh"></main>
+    </div>
     <!-- built files will be auto injected -->
+
+    <!-- jQuery Scripts -->
+    <script type="text/javascript" src="dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="dist/js/plugins.js"></script>
+    <script type="text/javascript" src="dist/js/scripts.js"></script>
   </body>
 </html>
